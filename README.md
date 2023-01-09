@@ -1,2 +1,2 @@
 # ClaimsDataAnalysis
-Exploring claims data
+Exploring claims data using pandas, matplotlib, numpy
