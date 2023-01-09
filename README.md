@@ -85,22 +85,22 @@ plt.show()
 #figure size
 plt.figure(figsize=(10, 6))
 
-# Calculate the combined reimbursement for 2008 and 2009
+#calculate combined reimbursement
 combined_reimbursement = age_groups['reimbursement2008'].sum() + age_groups['reimbursement2009'].sum()
 
-# Divide the combined reimbursement by 1,000,000 to convert to millions of dollars
+#show in millions of dollars
 combined_reimbursement = combined_reimbursement / 1000000
 
-# Plot the combined reimbursement by age group
+#plot combined reimbursement
 plt.bar(age_groups.groups.keys(), combined_reimbursement)
 
-# Add labels to the x and y axes
+#axes labels
 plt.xlabel('Age Group')
 plt.ylabel('Combined Reimbursement ($MM)')
 
 plt.title('Reimbursement Amount by Age Group', fontsize = 20)
 
-# Show the plot
+#show graph
 plt.show()
 ```
 
