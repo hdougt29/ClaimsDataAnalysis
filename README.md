@@ -1,6 +1,8 @@
 # ClaimsDataAnalysis
 Exploring claims data using pandas, matplotlib, numpy
 
+See Claims Analysis.ipynb for code output (matplotlib visualizations)
+
 
 ## Load data
 ```
